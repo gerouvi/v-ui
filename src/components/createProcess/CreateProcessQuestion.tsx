@@ -69,7 +69,7 @@ const CreateProcessQuestion = ({ index, remove }: props) => {
         />
       </HStack>
       {fields.map((_, idx: number) => (
-        <FormControl key={idx}>
+        <FormControl key={idx} mb={4}>
           <Flex alignItems="center">
             <FormLabel>Option {idx + 1}</FormLabel>
 
